@@ -54,6 +54,7 @@ We'll bring our static mockups to life soon.
  - Add a [panel](http://getbootstrap.com/components/#panels-heading) component to the right side.
  - Add content to the panel body; either a [form](http://getbootstrap.com/css/#forms-horizontal) or a [description list](http://getbootstrap.com/css/#horizontal-description), depending on which page you are working on.
  - Include [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/icons/) where appropriate.
+  - Check out the [optional `fa-fw` class](https://fortawesome.github.io/Font-Awesome/examples/#fixed-width) for fixed-width icons.
  - Make it [Responsive](http://getbootstrap.com/css/#responsive-utilities):
   - On extra-small and small screens, hide the left nav.
   - On medium and large screens, hide the navbar links (since the left nav is visible).
