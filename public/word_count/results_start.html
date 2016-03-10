@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Omnicalc</title>
+  <title>Omnicalc | Word Count Results</title>
 
   <!-- Connect to Bootstrap CSS -->
   <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
@@ -24,6 +24,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <h1>Hi</h1>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <i class="fa fa-calculator"></i>
+          Omnicalc
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav visible-xs visible-sm">
+          <li>
+            <a href="../word_count/new_start.html">
+              <i class="fa fa-fw fa-book"></i>
+              Word Count
+            </a>
+          </li>
+          <li>
+            <a href="../loan_payment/new_start.html">
+              <i class="fa fa-fw fa-money"></i>
+              Loan Payment
+            </a>
+          </li>
+          <li>
+            <a href="../time_between/new_start.html">
+              <i class="fa fa-fw fa-clock-o"></i>
+              Time Between
+            </a>
+          </li>
+          <li>
+            <a href="../descriptive_statistics/new_start.html">
+              <i class="fa fa-fw fa-bar-chart"></i>
+              Descriptive Statistics
+            </a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 hidden-xs hidden-sm">
+        <div class="list-group">
+          <a href="../word_count/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-book"></i>
+            Word Count
+          </a>
+          <a href="../loan_payment/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-money"></i>
+            Loan Payment
+          </a>
+          <a href="../time_between/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-clock-o"></i>
+            Time Between
+          </a>
+          <a href="../descriptive_statistics/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart"></i>
+            Descriptive Statistics
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-9">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Word Count Results</h3>
+          </div>
+          <div class="panel-body">
+            <dl class="dl-horizontal">
+              <dt>Text</dt>
+              <dd><p>It's a big advantage, when you're considering an idea like putting a college facebook online, if instead of merely thinking "That's an interesting idea," you can think instead "That's an interesting idea. I'll try building an initial version tonight." It's even better when you're both a programmer and the target user, because then the cycle of generating new versions and testing them on users can happen inside one head.</p></dd>
+
+              <dt>Word Count</dt>
+              <dd>69</dd>
+
+              <dt>Character Count (with spaces)</dt>
+              <dd>423</dd>
+
+              <dt>Character Count (without spaces)</dt>
+              <dd>355</dd>
+
+              <dt>Occurrences of <code>initial</code></dt>
+              <dd>1</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
