@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Omnicalc</title>
+  <title>Omnicalc | Descriptive Statistics Results</title>
 
   <!-- Connect to Bootstrap CSS -->
   <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
@@ -24,6 +24,124 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <h1>Hi</h1>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">
+          <i class="fa fa-calculator"></i>
+          Omnicalc
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav visible-xs visible-sm">
+          <li>
+            <a href="../word_count/new_start.html">
+              <i class="fa fa-fw fa-book"></i>
+              Word Count
+            </a>
+          </li>
+          <li>
+            <a href="../loan_payment/new_start.html">
+              <i class="fa fa-fw fa-money"></i>
+              Loan Payment
+            </a>
+          </li>
+          <li>
+            <a href="../time_between/new_start.html">
+              <i class="fa fa-fw fa-clock-o"></i>
+              Time Between
+            </a>
+          </li>
+          <li>
+            <a href="../descriptive_statistics/new_start.html">
+              <i class="fa fa-fw fa-bar-chart"></i>
+              Descriptive Statistics
+            </a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 hidden-xs hidden-sm">
+        <div class="list-group">
+          <a href="../word_count/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-book"></i>
+            Word Count
+          </a>
+          <a href="../loan_payment/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-money"></i>
+            Loan Payment
+          </a>
+          <a href="../time_between/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-clock-o"></i>
+            Time Between
+          </a>
+          <a href="../descriptive_statistics/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart"></i>
+            Descriptive Statistics
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-9">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Descriptive Statistics Results</h3>
+          </div>
+          <div class="panel-body">
+            <dl class="dl-horizontal">
+              <dt>Numbers</dt>
+              <dd>[92.0, 74.0, 69.0, 25.0, 73.0]</dd>
+
+              <dt>Sorted Numbers</dt>
+              <dd>[25.0, 69.0, 73.0, 74.0, 92.0]</dd>
+
+              <dt>Count</dt>
+              <dd>5</dd>
+
+              <dt>Minimum</dt>
+              <dd>25.0</dd>
+
+              <dt>Maximum</dt>
+              <dd>92.0</dd>
+
+              <dt>Range</dt>
+              <dd>67.0</dd>
+
+              <dt>Median</dt>
+              <dd>73.0</dd>
+
+              <dt>Sum</dt>
+              <dd>333.0</dd>
+
+              <dt>Mean</dt>
+              <dd>66.6</dd>
+
+              <dt>Variance</dt>
+              <dd>495.43999999999994</dd>
+
+              <dt>Standard Deviation</dt>
+              <dd>22.25848152952038</dd>
+
+              <dt>Mode</dt>
+              <dd>92.0</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
