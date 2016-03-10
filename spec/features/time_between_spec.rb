@@ -61,6 +61,8 @@ feature "New time between page" do
     visit "/time_between/new_start.html"
 
     Percy::Capybara.snapshot(page)
+
+    skip "Check the Percy status on your Pull Request for visual comparison"
   end
 end
 
@@ -117,5 +119,7 @@ feature "Time between results page" do
     visit "/time_between/results_start.html"
 
     Percy::Capybara.snapshot(page)
+
+    skip "Check the Percy status on your Pull Request for visual comparison"
   end
 end

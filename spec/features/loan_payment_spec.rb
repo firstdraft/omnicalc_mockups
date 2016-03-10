@@ -61,6 +61,8 @@ feature "New loan payment page" do
     visit "/loan_payment/new_start.html"
 
     Percy::Capybara.snapshot(page)
+
+    skip "Check the Percy status on your Pull Request for visual comparison"
   end
 end
 
@@ -117,5 +119,7 @@ feature "Word count results page" do
     visit "/loan_payment/results_start.html"
 
     Percy::Capybara.snapshot(page)
+
+    skip "Check the Percy status on your Pull Request for visual comparison"
   end
 end

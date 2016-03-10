@@ -61,6 +61,8 @@ feature "New descriptive statistics page" do
     visit "/descriptive_statistics/new_start.html"
 
     Percy::Capybara.snapshot(page)
+
+    skip "Check the Percy status on your Pull Request for visual comparison"
   end
 end
 
@@ -117,5 +119,7 @@ feature "Time between results page" do
     visit "/descriptive_statistics/results_start.html"
 
     Percy::Capybara.snapshot(page)
+
+    skip "Check the Percy status on your Pull Request for visual comparison"
   end
 end
