@@ -4,18 +4,18 @@ The goal of this project is to practice using Bootstrap to layout and style our 
 
 ## Introduction
 
-There are eight files in this repository:
+You will be working on eight files in this repository:
 
-- `/public/word_count/new_start.html`
-- `/public/word_count/results_start.html`
-- `/public/loan_payment/new_start.html`
-- `/public/loan_payment/results_start.html`
-- `/public/time_between/new_start.html`
-- `/public/time_between/results_start.html`
-- `/public/descriptive_statistics/new_start.html`
-- `/public/descriptive_statistics/results_start.html`
+- `public/word_count/new_start.html`
+- `public/word_count/results_start.html`
+- `public/loan_payment/new_start.html`
+- `public/loan_payment/results_start.html`
+- `public/time_between/new_start.html`
+- `public/time_between/results_start.html`
+- `public/descriptive_statistics/new_start.html`
+- `public/descriptive_statistics/results_start.html`
 
-These are blank HTML documents except that they are already `<link>`ed to the external stylesheets for Bootstrap and Font Awesome.
+Open up one of them and you'll see that these are blank HTML documents, except that they are already have the boilerplate `<html>`, `<head>`, etc, tags; and they are already `<link>`ed to the external stylesheets for Bootstrap and Font Awesome.
 
 For your eight starter files, you'll find your eight targets live at the following URLs:
 
