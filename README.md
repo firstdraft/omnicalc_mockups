@@ -15,9 +15,11 @@ You will be working on eight files in this repository:
 - `public/descriptive_statistics/new_start.html`
 - `public/descriptive_statistics/results_start.html`
 
-Open up one of them and you'll see that these are blank HTML documents, except that they are already have the boilerplate `<html>`, `<head>`, etc, tags; and they are already `<link>`ed to the external stylesheets for Bootstrap and Font Awesome.
+There is an index of these files located at `public/index.html`, to make it easier for you to navigate between them. Open `index.html` in Chrome now.
 
-For your eight starter files, you'll find your eight targets live at the following URLs:
+In Atom, take a look at `public/word_count/new_start.html`. You'll see that it is a blank HTML document, except that it already has the boilerplate `<html>`, `<head>`, etc, tags; and they are already `<link>`ed to the external stylesheets for Bootstrap and Font Awesome.
+
+Your goal is to make your eight local starter files look like the following eight targets:
 
  - [https://omnicalc-target.herokuapp.com/word_count/new](https://omnicalc-target.herokuapp.com/word_count/new)
  - [https://omnicalc-target.herokuapp.com/word_count/results](https://omnicalc-target.herokuapp.com/word_count/results)
@@ -30,7 +32,7 @@ For your eight starter files, you'll find your eight targets live at the followi
 
 Your static HTML mockups won't actually perform the calculations, of course, but try to make them *look* as close to the targets as possible. **Also, don't attempt the calendar-datepicker-popup on `time_between/new.html` yet.**
 
-If you need to write any custom CSS beyond vanilla Bootstrap, you can do so in `custom_styles.css`, which is already linked to all eight documents.
+If you need to write any custom CSS beyond vanilla Bootstrap, you can do so in `public/assets/custom_styles.css`, which is already linked to all eight documents.
 
 In the end, you should submit completed mockups for all eight pages (two pages for for each of the four calculators: the form to capture inputs, as well as the results page).
 
