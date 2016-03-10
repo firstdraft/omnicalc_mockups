@@ -66,7 +66,7 @@ feature "New descriptive statistics page" do
   end
 end
 
-feature "Time between results page" do
+feature "Descriptive statistics results page" do
   it "has a Bootstrap navbar" do
     visit "/descriptive_statistics/results_start.html"
 
