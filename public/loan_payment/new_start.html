@@ -24,6 +24,117 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <h1>Good luck!</h1>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">
+          <i class="fa fa-calculator"></i>
+          Omnicalc
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav visible-xs visible-sm">
+          <li>
+            <a href="../word_count/new_start.html">
+              <i class="fa fa-fw fa-book"></i>
+              Word Count
+            </a>
+          </li>
+          <li>
+            <a href="../loan_payment/new_start.html">
+              <i class="fa fa-fw fa-money"></i>
+              Loan Payment
+            </a>
+          </li>
+          <li>
+            <a href="../time_between/new_start.html">
+              <i class="fa fa-fw fa-clock-o"></i>
+              Time Between
+            </a>
+          </li>
+          <li>
+            <a href="../descriptive_statistics/new_start.html">
+              <i class="fa fa-fw fa-bar-chart"></i>
+              Descriptive Statistics
+            </a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 hidden-xs hidden-sm">
+        <div class="list-group">
+          <a href="../word_count/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-book"></i>
+            Word Count
+          </a>
+          <a href="../loan_payment/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-money"></i>
+            Loan Payment
+          </a>
+          <a href="../time_between/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-clock-o"></i>
+            Time Between
+          </a>
+          <a href="../descriptive_statistics/new_start.html" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart"></i>
+            Descriptive Statistics
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-9">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">New Loan Payment Calculation</h3>
+          </div>
+          <div class="panel-body">
+            <form action="results_start.html" class="form-horizontal">
+
+              <div class="form-group">
+                <label for="annual_percentage_rate" class="col-sm-2 control-label">APR</label>
+                <div class="col-sm-10">
+                  <input name="annual_percentage_rate" type="number" step="any" class="form-control" id="annual_percentage_rate" placeholder="Enter the APR of the loan (as a percent)">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="number_of_years" class="col-sm-2 control-label">Years</label>
+                <div class="col-sm-10">
+                  <input name="number_of_years" type="number" min="1" class="form-control" id="number_of_years" placeholder="Enter the number of years to repay the loan">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="principal_value" class="col-sm-2 control-label">Principal</label>
+                <div class="col-sm-10">
+                  <input name="principal_value" type="number" min="1" class="form-control" id="principal_value" placeholder="Enter the principal of the loan">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
